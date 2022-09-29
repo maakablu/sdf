@@ -1,0 +1,47 @@
+<html>
+    <head>
+       <title>Mi Aplicación de Selfies</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+
+</head>
+ 
+<body>
+    <div class="container">
+        <center>
+        <div class="row mt-5">
+                           <a href="" id="link" download="miselfie.png"></a>
+                <h1><img id="logo_img" src="selfie.jpeg">Aplicación de voz para tomar selfies</h1>
+        </div>
+        <hr>
+        <h4 style="color:red;">Haz clic en "Permitir" cuando aparezca la ventana emergente, después da una orden de voz.</h4>
+        
+        <div class="form-group">
+            <h3>Di "take my selfie"</h3>
+            <label>Tu salida de voz: </label>
+            <textarea class="form-control" id="textbox" readonly="true"></textarea>
+            <br>
+            <button class="btn float-left mx-2" onclick="start()"><img src="mic.png" id="microfono" widht="60" height="60"></button>
+            <p>Haz clic en el botón</p>
+        <div class="col-md-6 my-2">
+            <label>Tu cámara: </label>
+            <div id="camera"></div>
+        </div>
+        <br>
+        <div class="col-md-6 my-2">
+            <div class ="selfie">
+                <label>Tu selfie aparecerá aquí: </label>
+                <div id="result"></div>
+            </div>
+        </div>
+    </center>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

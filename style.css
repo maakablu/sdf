@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(white, #b37ee9);
+  }
+#start-btn
+{
+    width: 40%;
+} 
+#camera
+{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+    background-color: black;
+    border-radius: 10px;
+}
+#logo_img
+{
+    width: 150px;
+    border-radius: 100px;
+}
+#textbox
+{
+    width: 300px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px grey ;
+}
+#result
+{
+    width:360px;
+    height: 250px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.selfie
+{
+    width: 400px;
+    height: 380px;
+    border:1px solid gray;
+    background-color: #e8d9f8;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+label
+{
+    background-color: white;
+    font-weight: bold;
+    padding:5px 20px;
+    border-radius: 50px;
+}
